@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Allied Development Ventures (ADV)</title>
+
+  <!-- Tailwind CDN (for quick prototyping) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="antialiased text-slate-100 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-slate-900/60 backdrop-blur-sm border-b border-slate-800">
+    <div class="container mx-auto px-4 md:px-6 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <!-- logo tag -->
+        <img src="adv  image.jpg" alt="ADV logo" class="w-24 h-24 object-contain rounded-md shadow-md"
+/>
+
+        <div>
+          <h1 class="text-lg font-bold leading-tight">Allied Development Ventures <span class="text-sky-300">ADV</span></h1>
+          <p class="text-xs text-slate-300">B2B Healthcare Connections & Partnerships</p>
+        </div>
+      </div>
+
+      <!-- Desktop nav -->
+      <nav>
+        <ul id="navMenu" class="hidden md:flex items-center gap-6 text-slate-200">
+          <li><a class="nav-link hover:text-sky-300" href="#services">Services</a></li>
+          <li><a class="nav-link hover:text-sky-300" href="#how-we-work">How We Work</a></li>
+          <li><a class="nav-link hover:text-sky-300" href="#vision">Vision</a></li>
+          <li><a class="nav-link hover:text-sky-300" href="#contact">Contact</a></li>
+          <li><a class="inline-flex items-center gap-2 bg-sky-500 hover:bg-sky-600 px-4 py-2 rounded-md font-semibold shadow" href="#contact"><i class="fas fa-arrow-right"></i> Get Started</a></li>
+        </ul>
+
+        <!-- Mobile toggle -->
+        <button id="mobileToggle" aria-label="Toggle menu" class="md:hidden p-2 rounded-md text-slate-200 hover:bg-slate-800/40">
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+      </nav>
+    </div>
+
+    <!-- Mobile nav panel -->
+    <div id="mobilePanel" class="md:hidden hidden bg-slate-900/95 border-t border-slate-800">
+      <div class="px-4 py-4 flex flex-col gap-2">
+        <a class="px-3 py-2 rounded-md hover:bg-slate-800/60" href="#services">Services</a>
+        <a class="px-3 py-2 rounded-md hover:bg-slate-800/60" href="#how-we-work">How We Work</a>
+        <a class="px-3 py-2 rounded-md hover:bg-slate-800/60" href="#vision">Vision</a>
+        <a class="px-3 py-2 rounded-md hover:bg-slate-800/60" href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="pt-28">
+
+    <!-- HERO -->
+    <section class="container mx-auto px-4 md:px-6 py-12 md:py-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-6">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-white leading-tight">
+            Scale Healthcare Partnerships with <span class="text-sky-300">Allied Development Ventures</span>
+          </h2>
+
+          <p class="text-slate-300 max-w-2xl">
+            Allied Development Ventures helps suppliers, startups, and distributors form trusted B2B partnerships with hospitals and healthcare institutions across South India — faster, transparent, and result-driven.
+          </p>
+
+          <div class="flex gap-3 flex-wrap">
+            <a href="#contact" class="inline-flex items-center gap-2 bg-sky-500 hover:bg-sky-600 text-white px-4 py-2 rounded-md shadow">
+              <i class="fas fa-handshake"></i> Start Partnership
+            </a>
+            <a href="#how-we-work" class="inline-flex items-center gap-2 border border-slate-700 px-4 py-2 rounded-md text-slate-200 hover:border-sky-400 hover:text-sky-300">
+              <i class="fas fa-info-circle"></i> How We Work
+            </a>
+          </div>
+
+          <ul class="text-slate-300 mt-4 space-y-1">
+            <li>✅ Connecting verified suppliers with hospitals & clinics</li>
+            <li>✅ Commission-based partnership models</li>
+            <li>✅ End-to-end meeting coordination until deal closure</li>
+          </ul>
+
+          <div class="mt-4 text-sm text-slate-300">
+            <strong>Founder:</strong> Meghashyam · <strong>Location:</strong> Chennai, Tamil Nadu
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <!-- hero image tags -->
+          <img src="adv-1.jpg" alt="Healthcare partnership" class="max-w-full max-h-full object-contain">
+</div>
+          <img src="adv-2.jpg" alt="Next-generation health technology" class="max-w-full max-h-full object-contain"
+  />
+</div>
+
+        
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-12">
+      <div class="container mx-auto px-4 md:px-6">
+        <h3 class="text-2xl md:text-3xl font-bold text-white text-center">Services</h3>
+        <p class="text-center text-slate-300 max-w-2xl mx-auto mt-2">Healthcare Consultation | B2B Partnership | Commission-based introductions</p>
+
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <article class="reveal card p-6 rounded-xl bg-slate-800/60 border border-slate-700">
+            <div class="text-sky-300 text-2xl mb-3"><i class="fas fa-network-wired"></i></div>
+            <h4 class="text-xl font-semibold text-white mb-2">Verified Supplier Connections</h4>
+            <p class="text-slate-300">Matchmaking between verified suppliers, distributors and hospitals for meaningful partnerships.</p>
+          </article>
+
+          <article class="reveal card p-6 rounded-xl bg-slate-800/60 border border-slate-700">
+            <div class="text-sky-300 text-2xl mb-3"><i class="fas fa-handshake"></i></div>
+            <h4 class="text-xl font-semibold text-white mb-2">Partnership Development</h4>
+            <p class="text-slate-300">End-to-end coordination from intros to deal finalization — pay after success.</p>
+          </article>
+
+          <article class="reveal card p-6 rounded-xl bg-slate-800/60 border border-slate-700">
+            <div class="text-sky-300 text-2xl mb-3"><i class="fas fa-chart-line"></i></div>
+            <h4 class="text-xl font-semibold text-white mb-2">Growth & Commission Models</h4>
+            <p class="text-slate-300">Flexible revenue sharing and commission systems to scale with our partners.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How we work -->
+    <section id="how-we-work" class="py-12 bg-slate-900/20">
+      <div class="container mx-auto px-4 md:px-6">
+        <h3 class="text-2xl md:text-3xl font-bold text-white text-center">How We Work</h3>
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="reveal p-6 rounded-xl bg-slate-800/60 border border-slate-700">
+            <h4 class="font-semibold text-white mb-3">Step-by-step</h4>
+            <ol class="text-slate-300 list-decimal list-inside space-y-2">
+              <li>Identify potential suppliers and healthcare businesses.</li>
+              <li>Understand both sides needs & create matches.</li>
+              <li>Set up introductions and business meetings.</li>
+              <li>Support deal closure and keep communication smooth.</li>
+            </ol>
+          </div>
+
+          <div class="reveal p-6 rounded-xl bg-slate-800/60 border border-slate-700">
+            <h4 class="font-semibold text-white mb-3">Why Choose ADV</h4>
+            <ul class="text-slate-300 space-y-2">
+              <li>⭐ Professional & Transparent Process</li>
+              <li>⭐ No upfront cost — Pay after success</li>
+              <li>⭐ Verified & Reliable Business Connections</li>
+              <li>⭐ Long-term partnership support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision -->
+    <section id="vision" class="py-12">
+      <div class="container mx-auto px-4 md:px-6 text-center">
+        <h3 class="text-2xl md:text-3xl font-bold text-white">Vision & Mission</h3>
+        <p class="text-slate-300 max-w-3xl mx-auto mt-4">
+          <strong>Vision:</strong> To create a reliable B2B healthcare network that connects suppliers, startups and hospitals for faster business growth.<br>
+          <strong>Mission:</strong> To empower every healthcare supplier with trust-based connections and profitable partnerships across South India.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-12 bg-slate-900/10">
+      <div class="container mx-auto px-4 md:px-6">
+        <h3 class="text-2xl md:text-3xl font-bold text-white text-center">Ready to Collaborate?</h3>
+        <p class="text-center text-slate-300 max-w-2xl mx-auto mt-2">Let's add verified partnerships and growth to your healthcare business.</p>
+
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="p-6 rounded-xl bg-slate-800/60 border border-slate-700">
+            <h4 class="text-xl font-semibold text-white">Contact Info</h4>
+            <div class="mt-4 text-slate-300 space-y-3">
+              <div><i class="fas fa-envelope mr-2"></i> meghashyam.ad-v@nextgenupdate.in.net</div>
+              <div><i class="fas fa-phone mr-2"></i> +91 97406 98592</div>
+              <div><i class="fas fa-map-marker-alt mr-2"></i> Chennai, Tamil Nadu</div>
+              <div><i class="fab fa-linkedin mr-2"></i> <a href="https://www.linkedin.com/in/megha-shyam-976b40328" class="text-sky-300 hover:underline" target="_blank" rel="noopener">Megha Shyam</a></div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="p-6 rounded-xl bg-slate-800/60 border border-slate-700" novalidate>
+            <div class="grid grid-cols-1 gap-3">
+              <input id="name" name="name" type="text" placeholder="Your Name" required class="input-field" />
+              <input id="email" name="email" type="email" placeholder="Your Email" required class="input-field" />
+              <input id="company" name="company" type="text" placeholder="Company Name" class="input-field" />
+              <select id="interest" name="interest" class="input-field">
+                <option value="">I'm interested in...</option>
+                <option value="partnership">Partnership Development</option>
+                <option value="supplier">Supplier Connection</option>
+                <option value="other">Other</option>
+              </select>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your project or interest" class="input-field"></textarea>
+
+              <button type="submit" class="bg-sky-500 hover:bg-sky-600 text-white py-2 rounded-md font-semibold">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 mt-8 bg-slate-900/40 border-t border-slate-800">
+      <div class="container mx-auto px-4 md:px-6 text-center text-slate-400">
+        <p>&copy; <span id="year"></span> Allied Development Ventures (ADV). All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
