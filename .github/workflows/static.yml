@@ -1,0 +1,124 @@
+            -<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Allied Development Ventures (ADV)</title>
+
+  <!-- Tailwind CDN (for quick prototyping) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="antialiased text-slate-100 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-slate-900/60 backdrop-blur-sm border-b border-slate-800">
+    <div class="container mx-auto px-4 md:px-6 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="adv  image.jpg" alt="ADV logo" class="w-24 h-24 object-contain rounded-md shadow-md"/>
+        <div>
+          <h1 class="text-lg font-bold leading-tight">Allied Development Ventures <span class="text-sky-300">ADV</span></h1>
+          <p class="text-xs text-slate-300">Embedded Healthcare Growth & Revenue Partner</p>
+        </div>
+      </div>
+
+      <nav>
+        <ul id="navMenu" class="hidden md:flex items-center gap-6 text-slate-200">
+          <li><a class="nav-link hover:text-sky-300" href="#services">Services</a></li>
+          <li><a class="nav-link hover:text-sky-300" href="#how-we-work">How We Work</a></li>
+          <li><a class="nav-link hover:text-sky-300" href="#vision">Vision</a></li>
+          <li><a class="nav-link hover:text-sky-300" href="#contact">Contact</a></li>
+          <li><a class="inline-flex items-center gap-2 bg-sky-500 hover:bg-sky-600 px-4 py-2 rounded-md font-semibold shadow" href="#contact"><i class="fas fa-arrow-right"></i> Get Started</a></li>
+        </ul>
+
+        <button id="mobileToggle" aria-label="Toggle menu" class="md:hidden p-2 rounded-md text-slate-200 hover:bg-slate-800/40">
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-28">
+
+   <!-- Services -->
+<section id="services" class="py-12">
+  <div class="container mx-auto px-4 md:px-6">
+    <h3 class="text-2xl md:text-3xl font-bold text-white text-center">Services</h3>
+    <p class="text-center text-slate-300 max-w-2xl mx-auto mt-2">
+      Embedded Growth, Revenue Cycle Management, and MSO Infrastructure for Specialty Clinics and Hospitals
+    </p>
+
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- Specialty Clinics -->
+      <article class="reveal card p-6 rounded-xl bg-slate-800/60 border border-slate-700">
+        <div class="text-sky-300 text-2xl mb-3"><i class="fas fa-tooth"></i></div>
+        <h4 class="text-xl font-semibold text-white mb-2">Specialty Clinics (Dental & Dermatology)</h4>
+        <p class="text-slate-300">
+          We provide embedded Revenue Cycle Management and operational growth systems for specialty clinics, improving billing efficiency, patient acquisition, and revenue stability while enabling doctors to focus purely on clinical care.
+        </p>
+
+        <h5 class="text-sky-300 mt-4 font-semibold">RCM & Embedded Growth:</h5>
+        <ul class="text-slate-300 mt-2 list-disc list-inside space-y-1">
+          <li>Billing workflow optimization and revenue tracking</li>
+          <li>Patient flow and appointment utilization systems</li>
+          <li>Corporate partnerships and health camp execution</li>
+          <li>SOP implementation for operations and reporting</li>
+          <li>Centralized performance dashboards</li>
+        </ul>
+
+        <h5 class="text-sky-300 mt-4 font-semibold">MSO‑Lite (Post Pilot):</h5>
+        <ul class="text-slate-300 mt-2 list-disc list-inside space-y-1">
+          <li>Operational system ownership</li>
+          <li>Revenue planning and monitoring</li>
+          <li>Patient acquisition management</li>
+          <li>Standardized multi‑clinic workflows</li>
+          <li>Growth and expansion support</li>
+        </ul>
+
+        <a href="#contact" class="inline-block mt-3 text-sky-300 hover:underline">Learn More About Specialty Clinic Services</a>
+      </article>
+
+      <!-- Hospitals -->
+      <article class="reveal card p-6 rounded-xl bg-slate-800/60 border border-slate-700">
+        <div class="text-sky-300 text-2xl mb-3"><i class="fas fa-hospital"></i></div>
+        <h4 class="text-xl font-semibold text-white mb-2">Hospitals (Small & Medium)</h4>
+        <p class="text-slate-300">
+          We act as an embedded Revenue Cycle Management partner for hospitals, identifying revenue leakage, optimizing billing and operational workflows, and building standardized systems that improve cash flow and long‑term financial performance.
+        </p>
+
+        <h5 class="text-sky-300 mt-4 font-semibold">Revenue Cycle Management:</h5>
+        <ul class="text-slate-300 mt-2 list-disc list-inside space-y-1">
+          <li>Revenue audits and leakage identification</li>
+          <li>Front‑end registration and documentation controls</li>
+          <li>Billing and coding audits</li>
+          <li>Claims management and rejection handling</li>
+          <li>AR follow‑ups and payer coordination</li>
+          <li>Monthly reconciliation and revenue reporting</li>
+        </ul>
+
+        <h5 class="text-sky-300 mt-4 font-semibold">Full MSO (Post‑RCM):</h5>
+        <ul class="text-slate-300 mt-2 list-disc list-inside space-y-1">
+          <li>Operational governance and shared control</li>
+          <li>Departmental process ownership</li>
+          <li>Revenue performance monitoring</li>
+          <li>System standardization across units</li>
+          <li>Executive dashboards and growth planning</li>
+        </ul>
+
+        <a href="#contact" class="inline-block mt-3 text-sky-300 hover:underline">Request a Hospital Revenue Audit</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+</body>
+</html>
